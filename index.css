@@ -50,3 +50,9 @@ select, input, #result {
     align-items: center; 
     justify-content: center; 
 }
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+}
