@@ -1,0 +1,52 @@
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+form {
+    background-color: aquamarine;
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+label {
+    width: 15%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+select, input, #result {
+    width: 20%;
+    text-align: center;
+    margin: 0 5px; /* Add small spacing between elements */
+}
+
+#textbox, #result {
+    width: 20%;
+    height: 40px; 
+    text-align: center;
+    margin: 0 5px;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+#result {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
