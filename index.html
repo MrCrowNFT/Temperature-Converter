@@ -8,27 +8,28 @@
   </head>
   <body>
     <form>
-        <h1>Temperature Converter</h1>
-        <div class="input-group">
-          <label for="from">From</label>
-          <select name="from" id="from">
-            <option disabled selected value>--select an option--</option>
-            <option value="fahrenheit">F°</option>
-            <option value="celcius">C°</option>
-          </select>
-          <input type="number" id="textbox" value="0" />
-        </div>
-        <div class="input-group">
-          <label for="to">To</label>
-          <select name="to" id="to">
-            <option disabled selected value>--select an option--</option>
-            <option value="fahrenheit">F°</option>
-            <option value="celcius">C°</option>
-          </select>
-          <p id="result">ff</p>
-        </div>
-        <button type="button" onclick="convert()">Convert</button>
-      </form>
+      <h1>Temperature Converter</h1>
+      <div class="input-group">
+        <label for="from">From</label>
+        <select name="from" id="from">
+          <option disabled selected value>--select an option--</option>
+          <option value="fahrenheit">F°</option>
+          <option value="celcius">C°</option>
+        </select>
+        <input type="number" id="textbox" value="0" />
+      </div>
+      <div class="input-group">
+        <label for="to">To</label>
+        <select name="to" id="to">
+          <option disabled selected value>--select an option--</option>
+          <option value="fahrenheit">F°</option>
+          <option value="celcius">C°</option>
+        </select>
+        <p id="result"></p>
+      </div>
+      <button type="button" onclick="convert()">Convert</button>
+      <p id="alert"></p>
+    </form>
     <script src="Index.js"></script>
   </body>
 </html>
